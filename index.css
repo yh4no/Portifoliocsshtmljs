@@ -1,0 +1,175 @@
+#botoes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -40px;
+  top: 50px;
+  overflow-x: hidden;
+  height: 300px;
+  width: 220px; /* define o tamanho do “bloco” */
+  gap: 10px;
+  list-style: none;
+  color: #797070;
+}
+
+#botoes li {
+  width: 100%;
+  
+}
+
+#botoes button {
+  display: flex;
+  align-items: center;   /* centraliza vertical */
+  gap: 10px;             /* espaço entre ícone e texto */
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border: none;
+  position: relative;
+  bottom: -30px;
+  transition: 0.2s;
+}
+
+#botoes button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}
+
+
+.button1{
+  background-color: #6a6a6a;
+}
+.button2{ 
+  background-color: #444;
+}
+.button3{
+  background-color: #444;
+}
+
+#botoes img {
+  width: 18px;
+  height: 18px;
+}
+
+.caixa {
+  background-color: #373434;
+  padding: 20px;
+  width: 180px;
+  height: 738px;
+  border-right: 5px solid rgb(188, 31, 31);
+  box-shadow: 0px 0px 30px  #ff0000;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+
+body{
+  background-color: rgb(7, 8, 31);
+  padding: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1400px;
+  left: -640px;
+  font-size: 25px;
+  font-family: fantasy  ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  white-space: nowrap;
+  color: rgb(231, 231, 231);
+}
+
+.h1p{
+  color: #ff0000;
+}
+
+.h2p{
+  font-family: monospace;
+  font-size: 30px;
+  position: relative;
+  bottom: -60px;
+}
+
+.sobre{
+  background-color: #373434;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -1300px;
+  left: -860px;
+  border: 4px solid rgb(229, 20, 20);
+  box-shadow: 0 0 15px #ff0000;
+  height: 200px;
+  width: 500px;
+  border-radius: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sobre:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 20px 150px rgba(255, 0, 0, 0.3);
+}
+
+.h1b{
+  color: azure;
+  font-family: monospace;
+  font-size: 17px;
+  position: relative;
+  left: 200px;
+  top: -80px;
+  white-space: nowrap;
+}
+
+.h2b{
+  color: rgb(207, 207, 207);
+  font-family: monospace;
+  font-size: 15px;
+  position: relative;
+  left: -40px;
+  top: -0px;
+}
+
+.card-principal{
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: -1470px;
+  left: -1080px;
+  color: #ff0000;
+}
+
+.subcards {
+  display: flex;
+  gap: 600px;
+}
+
+.subcard {
+  display: flex;
+  flex-direction: column;
+  background: #2b2b2b;
+  padding: 10px 10px;
+  width: 150px;
+  height: 100px;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  line-height: 17px;
+  font-family: monospace;
+  border: 2px solid green;
+  box-shadow: 0px 0px 10px green;
+  transition: transform 0.3s; 
+  
+}
+
+.subcard:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 20px 150px green;
+}

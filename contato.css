@@ -1,0 +1,130 @@
+#botoes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -40px;
+  top: 50px;
+  overflow-x: hidden;
+  height: 300px;
+  width: 220px; /* define o tamanho do “bloco” */
+  gap: 10px;
+  list-style: none;
+  color: #797070;
+}
+
+#botoes li {
+  width: 100%;
+  
+}
+
+#botoes button {
+  display: flex;
+  align-items: center;   /* centraliza vertical */
+  gap: 10px;             /* espaço entre ícone e texto */
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border: none;
+  position: relative;
+  bottom: -30px;
+  transition: 0.2s;
+}
+
+#botoes button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}
+
+
+.button1{
+  background-color: #444;
+}
+.button2{ 
+  background-color: #444;
+}
+.button3{
+  background-color: #6a6a6a;
+}
+
+#botoes img {
+  width: 18px;
+  height: 18px;
+}
+
+.caixa {
+  background-color: #373434;
+  padding: 20px;
+  width: 180px;
+  height: 738px;
+  border-right: 5px solid rgb(188, 31, 31);
+  box-shadow: 0px 0px 30px  #ff0000;
+  position: absolute;
+  top: -5px;
+  left: 0px;;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(7, 8, 31);
+  overflow: hidden;
+  font-family: 'VT323', monospace;
+}
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 55%; /* um pouco mais pra direita por causa do menu lateral */
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container img {
+  width: 380px;
+  height: 380px;
+  position: relative;
+  left: -15px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.github { 
+  background: #333;
+  font-family: monospace; 
+        
+}
+
+.email { 
+  background: #ff4d4d; 
+  font-family: monospace;
+}
+
+
+.discord { 
+  background: #5865F2;
+  font-family: monospace; 
+}
+.linkedin { 
+  background: #0A66C2;
+  font-family: monospace;
+ }
+
+.btn:hover {
+  transform: scale(1.2);
+}

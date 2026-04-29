@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <script src="life.js"></script>
+  <link rel="stylesheet" href="contato.css">
+  <link rel="icon" href="mint500.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yh4no</title>
+</head>
+<body>
+
+<div class="caixa"> 
+
+  <ul id="botoes">
+    <li><button class="button1"><img src="home.png">| Sobre mim</button></li>
+    <li><button class="button2"><img src="code.png">| Projetos</button></li>
+    <li><button class="button3"><img src="fone.png">| Contato</button></li>
+  </ul>
+</div>
+
+
+<div class="container">
+    <!-- FOTO -->
+    <img src="mint500.png" alt="Foto de perfil">
+
+    <!-- BOTÕES -->
+    <div class="botoes">
+      <a href="https://github.com/yh4no" target="_blank" class="btn github">GitHub</a>
+      <a onclick="copiar()" class="btn email">Email</a>
+      <script>
+function copiar() {
+  navigator.clipboard.writeText("6179error@gmail.com");
+  alert("Copiado!");
+}
+</script>
+      <a href="https://discord.gg/e5rrEtxVGz" target="_blank" class="btn discord">Discord</a>
+      <a href="https://www.linkedin.com/in/felipe-oliveira-091618379/?skipRedirect=true" target="_blank" class="btn linkedin">LinkedIn</a>
+    </div>
+</div>
+
+
+</body>
+</html>
