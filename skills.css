@@ -1,0 +1,134 @@
+#botoes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -40px;
+  top: 50px;
+  overflow-x: hidden;
+  height: 300px;
+  width: 220px; /* define o tamanho do “bloco” */
+  gap: 10px;
+  list-style: none;
+  color: #797070;
+}
+
+#botoes li {
+  width: 100%;
+  
+}
+
+#botoes button {
+  display: flex;
+  align-items: center;   /* centraliza vertical */
+  gap: 10px;             /* espaço entre ícone e texto */
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border: none;
+  position: relative;
+  bottom: -30px;
+  transition: 0.2s;
+}
+
+#botoes button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}
+
+
+.button1{
+  background-color: #444;
+}
+.button2{ 
+  background-color: #444;
+}
+.button3{
+  background-color: #444;
+}
+
+.button4{
+  background-color: #6a6a6a;
+}
+
+#botoes img {
+  width: 18px;
+  height: 18px;
+}
+
+.caixa {
+  background-color: #373434;
+  padding: 20px;
+  width: 180px;
+  height: 738px;
+  border-right: 5px solid rgb(188, 31, 31);
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
+
+body{
+  background-color: rgb(7, 8, 31);
+  padding: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.projects{
+  display: flex;
+  gap: 100px;
+  position: relative;
+  top: -1300px;
+  left: -1000px;
+}
+
+.card{
+  flex: 1;
+  background-color: #373434;
+  padding: 20px;
+  border-radius: 16px;
+  color: beige;
+  font-family: monospace;
+  border: 3px solid rgb(43, 255, 0);
+  box-shadow: 0px 0px 5px rgb(0, 255, 170);
+  transition: transform 0.3s, box-shadow 0.3s;
+  filter: url(#turbulent-displace);
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 00px 100px rgba(255, 0, 0, 0.3);
+  border-style: double;
+}
+
+.card img {
+  width: 150px;   /* ocupa toda largura do card */
+  height: 150px; /* altura fixa */
+  
+  object-fit: cover; /* corta sem distorcer */
+  border-radius: 10px;
+}
+
+.saiba{
+  position: relative;
+  background-color:#4c4a4a;
+  color: aliceblue;
+  font-family: monospace;
+  border-radius: 25px;
+  padding: 8px;
+  border: 3px solid red;
+  box-shadow: 0px 0px 5px #ff0000;
+  left: 30px;
+  bottom: -10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.saiba:hover{
+  background-color: #8d4141;
+}
+
+a {
+  text-decoration: none; /* remove a linha */
+  color: inherit; /* mantém a cor do botão */
+}

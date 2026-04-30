@@ -45,6 +45,9 @@
 .button3{
   background-color: #444;
 }
+.button4{
+  background-color: #444;
+}
 
 #botoes img {
   width: 18px;
@@ -57,7 +60,7 @@
   width: 180px;
   height: 738px;
   border-right: 5px solid rgb(188, 31, 31);
-  box-shadow: 0px 0px 30px  #ff0000;
+  box-shadow: 0px 0px 0px  #ff0000;
   position: fixed;
   top: -5px;
   left: 0px;
@@ -73,8 +76,8 @@ body{
   display: flex;
   gap: 100px;
   position: relative;
-  top: -1200px;
-  left: -950px;
+  top: -1300px;
+  left: -1000px;
 }
 
 .card{
@@ -84,8 +87,8 @@ body{
   border-radius: 16px;
   color: beige;
   font-family: monospace;
-  border: 3px solid red;
-  box-shadow: 0px 0px 40px red;
+  border: 3px solid rgb(255, 122, 122);
+  box-shadow: 0px 0px 5px rgb(255, 0, 157);
   transition: transform 0.3s, box-shadow 0.3s;
   filter: url(#turbulent-displace);
 }
@@ -111,8 +114,8 @@ body{
   font-family: monospace;
   border-radius: 25px;
   padding: 8px;
-  border: 3px solid red;
-  box-shadow: 0px 0px 20px #ff0000;
+  border: 3px solid rgb(255, 109, 109);
+  box-shadow: 0px 0px 5px #ff0000;
   left: 30px;
   bottom: -10px;
   display: flex;
