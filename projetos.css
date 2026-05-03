@@ -49,6 +49,10 @@
   background-color: #444;
 }
 
+.button5{
+  background-color: #444;
+}
+
 #botoes img {
   width: 18px;
   height: 18px;
@@ -87,15 +91,15 @@ body{
   border-radius: 16px;
   color: beige;
   font-family: monospace;
-  border: 3px solid rgb(255, 122, 122);
-  box-shadow: 0px 0px 5px rgb(255, 0, 157);
+  border: 3px solid rgb(0, 123, 255);
+  box-shadow: 0px 0px 5px rgb(0, 47, 255);
   transition: transform 0.3s, box-shadow 0.3s;
   filter: url(#turbulent-displace);
 }
 
 .card:hover{
   transform: scale(1.1);
-  box-shadow: 0px 00px 100px rgba(255, 0, 0, 0.3);
+  box-shadow: 0px 00px 100px rgba(0, 51, 255, 0.3);
   border-style: double;
 }
 
@@ -114,8 +118,8 @@ body{
   font-family: monospace;
   border-radius: 25px;
   padding: 8px;
-  border: 3px solid rgb(255, 109, 109);
-  box-shadow: 0px 0px 5px #ff0000;
+  border: 2px solid rgb(208, 255, 0);
+  border-style: solid;
   left: 30px;
   bottom: -10px;
   display: flex;
@@ -124,7 +128,7 @@ body{
 }
 
 .saiba:hover{
-  background-color: #8d4141;
+  background-color: #656565;
 }
 
 a {

@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnProjetos =document.querySelector(".button2");
   const btnContato = document.querySelector(".button3");
   const btnskills = document.querySelector(".button4");
+  const btnservices = document.querySelector(".button5");
 
 
   btnSobre.addEventListener("click", () => {
@@ -21,6 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "skills.html";
   });
 
+  btnservices.addEventListener("click", () => {
+    window.location.href = "services.html";
+  });
 
 });
 
