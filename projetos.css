@@ -1,77 +1,95 @@
-#botoes {
+#botoes{
   display: flex;
   flex-direction: column;
-  position: absolute;
-  left: -40px;
-  top: 50px;
-  overflow-x: hidden;
-  height: 300px;
-  width: 220px; /* define o tamanho do “bloco” */
-  gap: 10px;
-  list-style: none;
-  color: #797070;
+  gap: 24px;
+  position: fixed;
+  left: -23px;
 }
 
-#botoes li {
-  width: 100%;
-  
+#botoes button{
+  background-color: #373434;
+  border-radius: 7px;
+  height: 39px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-
-#botoes button {
-  display: flex;
-  align-items: center;   /* centraliza vertical */
-  gap: 10px;             /* espaço entre ícone e texto */
-  width: 100%;
-  padding: 5px;
-  color: white;
-  border: none;
-  position: relative;
-  bottom: -30px;
-  transition: 0.2s;
-}
-
-#botoes button:hover {
-  background-color: #ff0000;
-  transform: scale(1.05);
-}
-
 
 .button1{
-  background-color: #444;
+  border: 2px solid rgb(255, 0, 0);
+  box-shadow: 0px 0px 2px rgb(255, 0, 0);
 }
-.button2{ 
-  background-color: #6a6a6a;
+
+.button2{
+  border: 2px solid rgb(0, 255, 94);
+  box-shadow: 0px 0px 2px rgb(98, 255, 0);
 }
+
 .button3{
-  background-color: #444;
+  border: 2px solid rgb(255, 30, 10);
+  box-shadow: 0px 0px 2px rgb(255, 0, 0);
 }
+
 .button4{
-  background-color: #444;
+  border: 2px solid rgb(255, 30, 10);
+  box-shadow: 0px 0px 2px rgb(255, 0, 0);
 }
 
 .button5{
-  background-color: #444;
+  border: 2px solid rgb(255, 30, 10);
+  box-shadow: 0px 0px 2px rgb(255, 0, 0);
 }
 
-#botoes img {
-  width: 18px;
-  height: 18px;
+#butues .text1{
+  opacity: 0;
+  color: #ff2600;
+  font-family: monospace;
+  position: fixed;
+  left: 50px;
+  bottom: -8px;
+  background-color: #373434;
+  border-radius: 5px;
+  border: 1px solid rgb(248, 0, 0);
+  box-shadow: 0px 0px 40px rgb(179, 3, 3);
+  height: 20px;
+  width: 90px;
+  
+}
+
+.text1 p{
+  position: fixed;
+  top: 40px;
+}
+
+#butues:hover .text1{
+  opacity: 1;
+}
+
+
+#botoes button:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 60px rgb(255, 0, 0);
 }
 
 .caixa {
-  background-color: #373434;
+  background-color: #272525;
   padding: 20px;
-  width: 180px;
-  height: 738px;
-  border-right: 5px solid rgb(188, 31, 31);
-  box-shadow: 0px 0px 0px  #ff0000;
-  position: fixed;
+  width: 30px;
+  height: 62.5rem;
+  border-right: 5px solid rgb(255, 0, 0);
+  position: absolute;
   top: -5px;
   left: 0px;
 }
 
+.button3 img{
+  position: relative ;
+  left: -1px;
+  top: 2px;
+}
+
+
+
 body{
-  background-color: rgb(7, 8, 31);
+  background-color: rgb(0, 0, 0);
   padding: 100%;
   overflow-x: hidden;
 }
@@ -132,6 +150,6 @@ body{
 }
 
 a {
-  text-decoration: none; /* remove a linha */
-  color: inherit; /* mantém a cor do botão */
+  text-decoration: none; 
+  color: inherit;
 }
